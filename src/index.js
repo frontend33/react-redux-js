@@ -13,7 +13,7 @@ import thunk from 'redux-thunk';
 import { Provider } from 'react-redux'
 import App from './components/App'
 
-const initialState = []
+const initialState = {}
 const store = createStore(
  rootReducer,
  initialState,
